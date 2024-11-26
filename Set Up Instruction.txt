@@ -1,0 +1,3 @@
+In order for this website to work, you must set up the database with the attached file project.sql
+
+The suggested starting page for the site is homepage.php, explorePage.php and loginPage.php. Opening other page might have error because the login session is not generated.

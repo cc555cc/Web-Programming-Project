@@ -1,0 +1,159 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.event-detail-display-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav-bar {
+    height: 7%;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    border: darkgrey;
+}
+
+#left-buttons {
+    height: 100%;        
+    font-size: 5vh;    
+    display: flex;
+    align-items: center;  
+}
+
+#right-buttons{
+    height: 100%;         
+    font-size: 2vh;       
+    display: flex;
+    align-items: center; 
+    margin-left: auto;
+}
+
+#nav-home-button,#nav-explore-button,#nav-account-button{
+    padding: 10px;
+    border-left: 1px solid grey;
+    color: #FF6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav-home-button:hover,#nav-explore-button:hover,#nav-account-button:hover{
+    background-color: darkgrey
+}
+
+#site-logo{
+    width: 11vh;
+    height: 9vh;
+}
+
+.event-information{
+    width: 90%;
+    display: block;
+    margin:10px;
+    padding:10px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
+}
+
+.right-side-element{
+    float:right;
+    width:35vh;
+    margin: 10px;
+}
+
+.user-profile-display-box{
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+}
+
+.avatar-and-username{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vh;
+    border-right: 2px solid lightgrey;
+}
+
+#user-avatar{
+    width: 20vh;
+    height: 10vh;
+}
+
+#about-user{
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:10vh;
+}
+
+#about-user:hover{
+    background-color: lightgrey;
+}
+
+#join-section{
+    display: flex;
+    justify-content: center;
+}
+
+#join-event-button{
+    margin: 5px;
+    width:40vh;
+    border-radius: 10px;
+    border: 2px solid #FF6347;
+    text-align:center;
+    background-color: #FF6347;
+    color:white;
+}
+
+#join-link{
+    color: white;
+}
+
+#join-event-button:hover{
+    background-color: #87CEEB;
+    border: 2px solid #87CEEB;
+    color: black;
+}
+
+#event-guest-list{
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 30vh;
+    min-height: 25vh;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2); 
+}
+
+#event-main-image{
+    width: 100vh;   
+    height: 50vh;  
+    object-fit: cover;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2); 
+
+}
+#like-button{
+    width:5vh;
+    height: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
